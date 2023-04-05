@@ -1,0 +1,217 @@
+html, body {font-size: 14px;}html, body {font-family: Lato, sans-serif;}
+body { background-color: #FFFFFF;}
+
+body, a { color: #666666; } /*tpl_base_font_color*/
+
+h1 { color: #0060AA; } /*tpl_base_h1_font_color*/
+h2 { color: #45789E; } /*tpl_base_h2_font_color*/
+
+
+h1, .section-header, .color-primary { color: #0060AA; } /*tpl_header_font_color*/
+.section-header--underlined span:after, .section-header--line-left span:after, .pmd__confirmations--header:after {
+border-color: #0060AA; }
+
+
+
+h2, .subheader, .subheader--full, .subheader--full--highlight, .subheader:after, .subheader--full:after,
+.charges-table__header, .charges-table .charges-table__sum-blue, .charges-table td.charges-table__sum-blue:before, .charges-table__header--line:after,
+.pmd__confirmations--header, .accommodation__header--no-line { 
+         color: #45789E;
+    }
+  
+.subheader:after, .subheader--full:after,
+.charges-table__sum-blue:before, .charges-table__header--line:after{ 
+        border-color: #45789E;
+    }
+
+
+
+.section-header, .subheader, .subheader--full, .subheader--full--highlight,
+ .accommodation__header--no-line, .accommodation__header--no-line:after, .accommodation__rooms, .payment__img--wrapp,
+  .charges-table__header {
+     border-color: #D2D2D2;
+  }
+/*tpl_rwd_form_width*/ 
+.container-fluid--max-width {
+    max-width: 800px; 
+ }
+
+  
+  /*tpl_base_bg_color  tak nie tpl_form_bg_on*/
+  .section-wrapper, .section-wrapper--consents {
+       background:#F1F1F1;
+       border:1px solid #D2D2D2;
+       display: block 
+   }
+/*tpl_header_bg_color*/
+  .section-header { 
+     background: #F1F1F1; 
+  }
+
+
+ .btn-primary {
+    color: #FFFFFF;
+    background-color: #0D64A6; 
+    border-color: #0D64A6; 
+  }
+  
+  .btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary:active:hover, .btn-primary.active:hover, .open>.dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open>.dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open>.dropdown-toggle.btn-primary.focus {
+    color: #FFFFFF;
+    background-color: #0D64A6; 
+    border-color: #0D64A6; 
+    opacity: 0.8;
+  }
+  
+   .btn-trans, .btn-trans:active, .btn-trans:focus {
+    color: #45789E; 
+    border-color: #45789E; 
+  }
+   .btn-trans:hover {
+    color: #FFFFFF; 
+    background-color: #45789E; 
+  }
+  
+  
+  
+/*tpl_plus_minus_bg_color*//*tpl_plus_minus_color*/
+.btn-number {
+    background-color: #5492C2;
+    color: #FFFFFF;
+ }
+
+.btn-trans:disabled,
+.btn-trans.disabled,
+.btn-trans:disabled:hover,
+.btn-trans.disabled:hover {
+    color: #bbb;
+    border-color: #bbb;
+    background: transparent;
+}p.CaptionCont.SelectBox{
+        color: #666666;
+        border: 1px solid #c0c0c0;
+        background: #ffffff;
+        display: block;
+        width: 100%;
+        height: 34px;
+        padding: 6px 12px;
+        border-radius: 4px;
+        box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    }
+
+    .SumoSelect.open .search-txt{
+        padding: 6px 3px;
+    }
+
+    .SumoSelect > .CaptionCont > span {
+        font-size: unset;
+    }
+    .SumoSelect > .optWrapper > .options li label{
+        color: #666666;
+    }
+    .SumoSelect > .optWrapper > .options li.opt:hover{
+        background-color: #3399FF;
+    }
+    .SumoSelect > .optWrapper > .options li.opt:hover > label{
+        color: #ffffff;
+    }
+
+
+    select option:checked,
+    select option:hover {
+        box-shadow: 0 0 10px 100px #000 inset;
+    }
+
+    .SumoSelect.open > .optWrapper {
+        top: 33px;
+    }
+    
+    .sumo_platnosci_waluta > p.CaptionCont.SelectBox {
+        color: #666666;
+        border: 1px solid #c0c0c0;
+        background: #ffffff;
+        display: block;
+        width: 100%;
+        height: 22px;
+        padding: 1px 2px;
+        border-radius: 4px;
+        box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    }
+    
+    .sumo_platnosci_waluta > p.CaptionCont.SelectBox > span{
+        font-size: 0.7499975rem;
+        padding-top: 3px;
+        padding-left: 6px;
+    }
+    
+    .charges-table__currency-select__row > .xs{
+        float: right;
+        width: 60px;
+        margin-left: 8px;
+    }
+    
+    .sumo_platnosci_waluta.SumoSelect.open > .optWrapper{
+        top: 21px;
+    }
+    .sumo_platnosci_waluta.SumoSelect > .optWrapper > .options li.opt{
+        padding: 0px 2px;
+        
+    }
+    .sumo_platnosci_waluta.SumoSelect > .optWrapper > .options li label{
+        font-size: 0.7499975rem !important;
+        display: inline-block;
+     }
+     .sumo_platnosci_waluta > p> label {
+        width: 25px !important;
+    }
+
+    .sumo_platnosci_waluta > .CaptionCont > span{
+        padding-right: 25px !important;
+    }
+    
+/*tpl_input_bg_color*/ 
+
+.form-control, input, select:not(.ui-datepicker-month):not(.ui-datepicker-year), textarea, .nv-select, .nv_pass--result, .persons-select__input[readonly] { background: #FFFFFF; }
+
+
+
+/*tpl_input_border_color*/
+
+ .form-control, input, select:not(.ui-datepicker-month):not(.ui-datepicker-year), textarea, .nv-select {
+    border: 1px solid #C0C0C0; 
+ }
+ 
+ div.intl-tel-input.inside .flag-dropdown {
+    border: 1px solid #C0C0C0;
+ }
+ 
+ .input-group-addon {
+    border: 1px solid #C0C0C0; 
+ }
+ 
+.nv_pass--result {
+     border-top:  1px solid #C0C0C0; 
+     border-bottom:  1px solid #C0C0C0;
+ }
+ 
+.persons-select__input, .charges-table__currency-select__select, .nv-select select{
+    border:none!important;
+ }
+
+
+/*tpl_input_font_color*/ 
+.form-control, input,  select:not(.ui-datepicker-month):not(.ui-datepicker-year), textarea, .nv-select {
+    color: #666666;
+ }
+
+
+/*tpl_info_icon_color*/
+.help-icon--right, .help-icon--left{
+    color: #0078CE; 
+}
+
+
+
+
+

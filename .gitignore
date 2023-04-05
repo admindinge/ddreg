@@ -6,7 +6,8 @@ node_modules/
 
 **/*.min.js
 **/*.min.css
-images/
+**/*.tmp
+# images/
 fonts/
 
 # build files

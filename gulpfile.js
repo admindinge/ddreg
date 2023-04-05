@@ -8,7 +8,7 @@ const uglify = require('gulp-uglify');
 const browserSync = require('browser-sync').create();
 const watch = require('gulp-watch');
 
-const cssFiles = ['./css/fonts.css','./css/reset.css','./css/**/*.css','./css/main.css', '!./css/*.min.css'];
+const cssFiles = ['./css/jquery.reject.css','./css/**/*.css', '!./css/*.min.css'];
 const jsFiles = ['./js/**/*.js', './js/main.js','!./js/*.min.js'];
 
 function styles() {

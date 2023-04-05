@@ -1,0 +1,37 @@
+body {background-color: #000000;}
+pmd__confirmations { display: none; }
+.FCInfo { font-size: 0.9rem; padding-bottom: 20px; display: none; }
+.blueH { color: #0078D7; }
+.yellowH { color: #FCE100; }
+.has-error p.CaptionCont.SelectBox { border-color: #DB2828;  }
+section[data-questionnaire='kwestionariusz_1419'] div.subheader--full--highlight,
+section[data-questionnaire='kwestionariusz_1412'] div.subheader--full--highlight,
+section[data-questionnaire='kwestionariusz_1413'] div.subheader--full--highlight, 
+section[data-questionnaire='kwestionariusz_1414'] div.subheader--full--highlight,
+section[data-questionnaire='kwestionariusz_1420'] div.subheader--full--highlight,
+section[data-questionnaire='kwestionariusz_1416'] div.subheader--full--highlight,
+section[data-questionnaire='kwestionariusz_1417'] div.subheader--full--highlight,
+section[data-questionnaire='kwestionariusz_1418'] div.subheader--full--highlight
+  { display: none; }
+  
+#box_zgoda_498,#box_zgoda_499 {padding-bottom: 20px; }
+label.sex { font-size: 1rem; padding-right: 4%; }
+  
+  #commentsBox { display: none; }
+  
+@media (min-width: 600px) {
+  header .container {
+      width: 600px;
+  }
+}
+  
+@media (min-width: 720px) {
+  header .container {
+      width: 750px;
+  }
+}
+@media (min-width: 1200px) {
+header .container {
+  width: 100%;
+}
+}
